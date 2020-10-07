@@ -4,7 +4,6 @@ const DATA_LOCATION='datas/';
 echo "----------------------Gestion des Licences logicielles--------------------------\n";
 
 
-
 $employees=loadAndDump(DATA_LOCATION."employees.json");
 $services=loadAndDump(DATA_LOCATION."services.json");
 $softs=loadAndDump(DATA_LOCATION."softs.json");
